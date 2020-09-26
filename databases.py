@@ -25,5 +25,7 @@ def return_all_blogs():
 	return blogs
 
 def return_blog(id):
+	session = DBSession()
+
 	blog = session.query(Blog).filter_by(id = id).first()
 	return blog
