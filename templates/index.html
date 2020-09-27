@@ -60,7 +60,7 @@
                         </div>
                         <div class="col-lg-2 d-none d-lg-block">
                             <div class="log_chat_area d-flex align-items-end">
-                                <a href="#" data-scroll-nav="0" class="say_hi">Say Hello</a>
+                                <a href="{{url_for('login_page')}}"  class="say_hi">Log In</a>
                             </div>
                         </div>
                         <div class="col-12">
@@ -83,7 +83,7 @@
                             <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">
                                Astronomy community. Fun facts, information, and more!
                             </h3>
-                            <a class="boxed-btn3 wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".2s" href="portfolio.html">Sign Up</a>
+                            <a class="boxed-btn3" href="{{url_for('signup_page')}}">Sign Up</a>
                         </div>
                     </div>
                 </div>
@@ -134,7 +134,7 @@
 
     <div style="  background: #1F1F1F;padding: 10%;">
         <div style="position: absolute;top:290%;left: 5%;">
-            <img src="{{pic_url}}" style="max-height: 60%;max-width: 60%;">
+            <img src="{{pic_url}}" style="max-height: 60%;max-width: 40%;">
         </div>
         <div class="container">
             <div class="row justify-content-end">
@@ -145,7 +145,7 @@
                             <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Picture of the Day</h3>
                             <p class="mid_text wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">{{pic_explanation}}</p>
                             <p class="last_text wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">This picture is the official picture of today!</p>
-                            <a href="#" class="boxed-btn3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">More Photos</a>
+                            
                         </div>
                     </div>
                 </div>
@@ -265,44 +265,77 @@
    
    
 
-    <div data-scroll-index="0" class="get_in_tauch_area">
+   <!--  <div data-scroll-index="0" class="get_in_tauch_area">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section_title text-center mb-90">
-                        <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Get in Touch</h3>
-                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Tour function information without cross action media value quickly maximize timely deliverables.</p>
+                        <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Log In</h3>
+                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Log in and share articles! OR SCROLL DOWN TO SIGN UP!</p>
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="touch_form">
-                        <form action="#">
+                        <form action="/login" method="POST">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                                        <input type="text" placeholder="Your Name" >
+                                        <input type="text" name= "username" placeholder="Username" >
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                                        <input type="email" placeholder="Email" >
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                                        <input type="email" placeholder="Subject" >
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                                       <textarea name="" id="" cols="30" placeholder="Message" rows="10"></textarea>
+                                        <input type="password" name= "password" placeholder="Password" >
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="submit_btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
-                                        <button class="boxed-btn3" type="submit">Send Message</button>
+                                        <button class="boxed-btn3" type="submit">Log In</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+         <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center mb-90">
+                        <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Sign Up</h3>
+                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Log in and share articles!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="touch_form">
+                        <form action="/signup" method="POST">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                                        <input type="text" name= "username" placeholder={{username_check}}>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                                        <input type="password" name= "password" placeholder="Password" >
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="submit_btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
+                                        <button class="boxed-btn3" type="submit">Done!</button>
                                     </div>
                                 </div>
                             </div>
@@ -312,7 +345,7 @@
             </div>
         </div>
     </div>
-
+ -->
 
     <!-- footer start -->
     <footer class="footer">

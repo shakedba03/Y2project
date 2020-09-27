@@ -30,7 +30,7 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-    <!-- header-start -->
+      <!-- header-start -->
     <header>
         <div class="header-area ">
             <div id="sticky-header" class="main-header-area">
@@ -56,7 +56,7 @@
                         </div>
                         <div class="col-lg-2 d-none d-lg-block">
                             <div class="log_chat_area d-flex align-items-end">
-                                <a href="#" data-scroll-nav="0" class="say_hi">Say Hello</a>
+                                <a href="{{url_for('login_page')}}"  class="say_hi">Log In</a>
                             </div>
                         </div>
                         <div class="col-12">
@@ -102,9 +102,7 @@
                                 <h2>{{blog.title}}</h2>
                             </a>
                            <!--  <p>The center of our Milky Way galaxy is too distant for us to visit in person, but we can still explore it. Telescopes give us a chance to see what the Galactic Center looks like in different types of light.</p> -->
-                            <ul class="blog-info-link">
-                                <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
-                            </ul>
+                            
                         </div>
                     </article>
                      {%endfor%}
@@ -118,7 +116,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section_title text-center mb-90">
-                        <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Add Your Article</h3>
+                        <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Add Your Article {{msg}}</h3>
                         <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Add or write your own article and share with our community.</p>
                     </div>
                 </div>
