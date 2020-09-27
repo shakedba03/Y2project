@@ -118,6 +118,9 @@ def login_page():
 	return render_template("login.html")
 
 
+@app.route('/about')
+def about_page():
+	return render_template("about.html")
 
 
 
