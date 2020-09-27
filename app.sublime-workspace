@@ -1,0 +1,613 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"ca",
+				"card_5"
+			],
+			[
+				"c",
+				"card_4"
+			],
+			[
+				"car",
+				"card_4"
+			],
+			[
+				"card",
+				"card_1"
+			],
+			[
+				"fa",
+				"facts_dict"
+			],
+			[
+				"per",
+				"percent"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"back",
+				"background-image\tproperty"
+			],
+			[
+				"ba",
+				"background-image\tproperty"
+			],
+			[
+				"p",
+				"pic_url"
+			],
+			[
+				"pi",
+				"pic_explanation"
+			],
+			[
+				"pic",
+				"pic_date"
+			],
+			[
+				"bg",
+				"bgcolor\tAttr"
+			],
+			[
+				"se",
+				"send"
+			],
+			[
+				"ms",
+				"msg_content"
+			],
+			[
+				"f",
+				"form"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"pa",
+				"page1"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"co",
+				"count_amount_called"
+			],
+			[
+				"bo",
+				"bottom\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"i",
+				"input\tTag"
+			],
+			[
+				"m",
+				"main_div"
+			],
+			[
+				"fil",
+				"filter\tproperty"
+			],
+			[
+				"fo",
+				"font-size\tproperty"
+			],
+			[
+				"ma",
+				"margin\tproperty"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"r",
+				"right\tproperty"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"borde",
+				"border\tproperty"
+			],
+			[
+				"L",
+				"Log"
+			],
+			[
+				"border-top",
+				"border-top-color\tproperty"
+			],
+			[
+				"border-top-",
+				"border-top-width\tproperty"
+			],
+			[
+				"border",
+				"border-style\tproperty"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"end",
+				"encode"
+			],
+			[
+				"user",
+				"user_number"
+			],
+			[
+				"user_",
+				"user_param"
+			],
+			[
+				"REDER",
+				"redirection"
+			],
+			[
+				"cal",
+				"cal_next_response"
+			],
+			[
+				"de",
+				"decode"
+			],
+			[
+				"str",
+				"str_html_code"
+			],
+			[
+				"ht",
+				"html_code"
+			],
+			[
+				"num",
+				"num2"
+			],
+			[
+				"ne",
+				"new_html_code"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"use",
+				"user_num"
+			],
+			[
+				"para",
+				"pararms_dict"
+			],
+			[
+				"func",
+				"func_name"
+			],
+			[
+				"it",
+				"item_list"
+			],
+			[
+				"fu",
+				"func_name"
+			],
+			[
+				"b",
+				"background\tproperty"
+			],
+			[
+				"d",
+				"d"
+			],
+			[
+				"fi",
+				"fix_start"
+			],
+			[
+				"for",
+				"forward"
+			],
+			[
+				"pen",
+				"penup"
+			],
+			[
+				"ran",
+				"random_y_pos"
+			],
+			[
+				"g",
+				"global"
+			],
+			[
+				"ra",
+				"random_y_pos"
+			],
+			[
+				"rand",
+				"random_y_pos"
+			],
+			[
+				"random",
+				"random_x_pos"
+			],
+			[
+				"x",
+				"xcor"
+			],
+			[
+				"top",
+				"top_left_y"
+			],
+			[
+				"bal",
+				"ball_index"
+			],
+			[
+				"bLL",
+				"ball_index"
+			],
+			[
+				"ball",
+				"ball_list"
+			],
+			[
+				"a",
+				"append"
+			],
+			[
+				"col",
+				"collide_dist3"
+			],
+			[
+				"coll",
+				"collide_dist1"
+			],
+			[
+				"dis",
+				"distance3"
+			],
+			[
+				"colli",
+				"collide_dist"
+			],
+			[
+				"make",
+				"make_balls"
+			],
+			[
+				"random_",
+				"random_ball"
+			],
+			[
+				"move",
+				"move_ball"
+			],
+			[
+				"to",
+				"top_left_x"
+			],
+			[
+				"top_left",
+				"top_left_y"
+			],
+			[
+				"top_",
+				"top_right_x"
+			],
+			[
+				"bor",
+				"border_xcor"
+			],
+			[
+				"br",
+				"border_pos"
+			],
+			[
+				"rando",
+				"random_colors_hexagons"
+			],
+			[
+				"pe",
+				"pendown"
+			],
+			[
+				"shape",
+				"shapesize"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/shaked/Desktop/Meet/cpweb/database.py",
+		"/C/Users/shaked/Desktop/Y2project/databases.py",
+		"/C/Users/shaked/Desktop/Meet/cpweb/model.py",
+		"/C/Users/shaked/Desktop/Y2project/pics.py",
+		"/C/Users/shaked/Desktop/Y2project/templates/blog.html",
+		"/C/Users/shaked/Desktop/Y2project/templates/single-blog.html",
+		"/C/Users/shaked/Desktop/Meet/cpweb/templates/index.html",
+		"/C/Users/shaked/Desktop/Y2project/static/scss/_slider.css",
+		"/C/Users/shaked/Desktop/api try.py",
+		"/C/Users/shaked/Desktop/Y2project/facts.py",
+		"/C/Users/shaked/Desktop/Y2project/static/scss/_about.css",
+		"/C/Users/shaked/Desktop/Y2project/static/scss/_header.scss",
+		"/C/Users/shaked/Desktop/Y2project/static/css/style.map",
+		"/C/Users/shaked/Desktop/Y2project/static/scss/map",
+		"/C/Users/shaked/Desktop/Y2project/static/img/about/about.png",
+		"/C/Users/shaked/Desktop/Y2project/templates/startup/contact.html",
+		"/C/Users/shaked/Desktop/Y2project/templates/startup/blog.html",
+		"/C/Users/shaked/Desktop/Y2project/templates/startup/about.html",
+		"/C/Users/shaked/Desktop/Y2project/templates/startup/index.html",
+		"/C/Users/shaked/Desktop/Y2project/app.py",
+		"/C/Users/shaked/Desktop/Meet/cpweb/app.py",
+		"/C/Users/shaked/Desktop/Y2project/templates/._main.html",
+		"/C/Users/shaked/Desktop/Y2project/templates/._index.html",
+		"/C/Users/shaked/Desktop/מקצועות - בית ספר/מדעי המחשב/מחשבים/כיתה יב/משימות שיעורי זום/table.html",
+		"/C/Users/shaked/Desktop/homework/טבלה 2/טבלה 2.html",
+		"/C/Users/shaked/Desktop/homework/טבלה/static/table.css",
+		"/C/Users/shaked/Desktop/homework/טבלה/table.html",
+		"/C/Users/shaked/Desktop/homework/משימה 2/table.html",
+		"/C/Users/shaked/Desktop/homework/table.html",
+		"/C/Users/shaked/Desktop/cyber/templates ideas/eduMark/index.html",
+		"/C/Users/shaked/Desktop/cyber/templates ideas/eduMark/css/style.css",
+		"/C/Users/shaked/Desktop/start.py",
+		"/C/Users/shaked/Desktop/cpweb/app.py",
+		"/C/Users/shaked/Desktop/tries/app.py",
+		"/C/Users/shaked/Desktop/Y2-Individual-Project-yl1920/app.py",
+		"/C/Users/shaked/Desktop/Y2-Individual-Project-yl1920/templates/Log_In.html",
+		"/C/Users/shaked/Desktop/tries/templates/alerttry.html",
+		"/C/Users/shaked/Desktop/tries/alerttry.py",
+		"/C/Users/shaked/Desktop/tries/alerttry.html",
+		"/C/Users/shaked/Desktop/homework1/homework/page4.css",
+		"/C/Users/shaked/Desktop/homework1/homework/page4.html",
+		"/C/Users/shaked/Desktop/homework1/homework/page3.css",
+		"/C/Users/shaked/Desktop/homework1/homework/page3.html",
+		"/C/Users/shaked/Desktop/homework1/homework/page2.css",
+		"/C/Users/shaked/Desktop/homework1/homework/page2.html",
+		"/C/Users/shaked/Desktop/homework1/homework/page1.css",
+		"/C/Users/shaked/Desktop/homework1/homework/page1.html",
+		"/C/Users/shaked/Desktop/homework1/page1.css",
+		"/C/Users/shaked/Desktop/homework1/page2.css",
+		"/C/Users/shaked/Desktop/homework1/page1.html",
+		"/C/Users/shaked/Desktop/homework1/page4.css",
+		"/C/Users/shaked/Desktop/homework1/page4.html",
+		"/C/Users/shaked/Desktop/homework1/page3.html",
+		"/C/Users/shaked/Desktop/homework1/page2.html",
+		"/C/Users/shaked/Desktop/homework1/page3.css",
+		"/C/Users/shaked/Desktop/מקצועות - בית ספר/סייבר/closures.py",
+		"/E/meet web/static/home_c.css",
+		"/E/meet web/templates/recipe.html",
+		"/E/meet web/templates/home.html",
+		"/E/meet web/static/recipes_c.css",
+		"/E/meet web/templates/recipes.html",
+		"/E/meet web/static/recipe_c.css",
+		"/E/meet web/templates/Log_In.html",
+		"/E/meet web/templates/about.html",
+		"/C/Users/shaked/Desktop/Meet WEB/static/Log_In_c.css",
+		"/C/Users/shaked/Desktop/Meet WEB/templates/Log_In.html",
+		"/C/Users/shaked/Desktop/Meet WEB/static/about_c.css",
+		"/C/Users/shaked/Desktop/Meet WEB/templates/about.html",
+		"/C/Users/shaked/Desktop/Meet WEB/static/home_c.css",
+		"/C/Users/shaked/Desktop/Meet WEB/templates/home.html",
+		"/C/Users/shaked/Desktop/Meet WEB/templates/recipes.html",
+		"/C/Users/shaked/Desktop/Meet WEB/static/recipes_c.css",
+		"/C/Users/shaked/Desktop/Meet WEB/about_c.css",
+		"/C/Users/shaked/Desktop/Meet WEB/home_c.css",
+		"/C/Users/shaked/Desktop/Meet WEB/about.html",
+		"/C/Users/shaked/Desktop/Meet WEB/home.html",
+		"/C/Users/shaked/Desktop/Meet WEB/Log_In_c.css",
+		"/C/Users/shaked/Desktop/Meet WEB/Log_In.html",
+		"/C/Users/shaked/Desktop/home.html",
+		"/C/Users/shaked/Desktop/new/webroot/webroot/new_server.py",
+		"/C/Users/shaked/Desktop/new/webroot/webroot/index.html",
+		"/C/Users/shaked/Desktop/color_scheme.html",
+		"/C/Users/shaked/Desktop/trying_css.css",
+		"/C/Users/shaked/Desktop/spam_whatsapp.py",
+		"/C/Users/shaked/Desktop/new_server.py",
+		"/C/Users/shaked/Desktop/something.html",
+		"/C/Users/shaked/Desktop/http_server.py",
+		"/C/Users/shaked/Desktop/meetyl1201819/#Rock, paper & scissors.py",
+		"/C/Users/shaked/Desktop/meetyl1201819/lab7collisons.py",
+		"/C/Users/shaked/Desktop/meetyl1201819/try.py",
+		"/C/Users/shaked/Desktop/meetyl1201819/play.py",
+		"/C/Users/shaked/Desktop/meetyl1201819/lab 6.py",
+		"/C/Users/shaked/OneDrive/מסמכים/lab 2"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "app.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
