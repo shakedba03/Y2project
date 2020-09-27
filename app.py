@@ -1,5 +1,5 @@
 from flask import *
-from flask_mail import *
+#from flask_mail import *
 from databases import *
 from flask import session as login_session
 from facts import *
