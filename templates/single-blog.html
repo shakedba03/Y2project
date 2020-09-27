@@ -34,7 +34,7 @@
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo-img">
                                 <a href="index.html">
-                                    <img src="../static/img/logo.png" alt="">
+                                    <img src="static/img/logo.png" alt="">
                                 </a>
                             </div>
                         </div>
@@ -44,14 +44,14 @@
                                     <ul id="navigation">
                                         <li><a class="active" href="{{url_for('home_page')}}">home</a></li>
                                         <li><a href="{{url_for('blog_page')}}">blog</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                       
                                     </ul>
                                 </nav>
                             </div>
                         </div>
                         <div class="col-lg-2 d-none d-lg-block">
                             <div class="log_chat_area d-flex align-items-end">
-                                <a href="#" data-scroll-nav="0" class="say_hi">Say Hello</a>
+                                <a href="{{url_for('login_page')}}"  class="say_hi">Log In</a>
                             </div>
                         </div>
                         <div class="col-12">
@@ -62,7 +62,7 @@
             </div>
         </div>
     </header>
-  <!-- header-end -->
+    <!-- header-end -->
  
   <!-- bradcam_area  -->
   <div class="bradcam_area breadcam_bg_3">
