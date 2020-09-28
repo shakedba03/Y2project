@@ -15,11 +15,10 @@ time= datetime.datetime.now()
 
 
 is_signed = False
-logout = "Log In"
-	
+
 @app.route('/')
 def home_page():
-	global logout
+	
 	#Uses NASA's API:
 	response = requests.get("https://api.nasa.gov/planetary/apod?api_key=P0sKdiotXiFwGX8J4N3rWli9RFt63IymOHvJF0xT")
 	str_j = json.dumps(response.json())
@@ -35,15 +34,13 @@ def home_page():
 	card_4 = facts_dict[keys_list[3]]
 	card_5 = facts_dict[keys_list[4]]
 
-	if is_signed:
-		logout = "Log Out"
 	
 	return render_template("index.html", pic_date = pic_date, pic_explanation = pic_explanation, pic_url = pic_url,
 		card_1 = card_1, card_2 = card_2, card_3= card_3, card_4= card_4, card_5 = card_5)
 
 @app.route('/blog', methods=['GET', 'POST'])
 def blog_page():
-	global logout
+	
 	global is_signed
 	print(is_signed)
 	msg = "- Please log in first."
@@ -64,12 +61,12 @@ def blog_page():
 
 @app.route('/single_blog/<int:blog_id>')
 def single_blog_page(blog_id):
-	global logout
+	
 	return render_template("single-blog.html", blog = return_blog(blog_id))
 
 @app.route('/signup', methods=['GET', 'POST'])
 def signup_page():
-	global logout
+	
 	username_check = "Sign Up"
 	if request.method == 'POST':
 		username = request.form["username"]
@@ -87,7 +84,7 @@ def signup_page():
 
 @app.route('/login', methods=['GET', 'POST'])
 def login_page():
-	global logout
+	
 	global is_signed
 	user_check = "Log In"
 	pass_check = "Password"
@@ -132,7 +129,7 @@ def login_page():
 
 @app.route('/about')
 def about_page():
-	global logout
+	
 	return render_template("about.html")
 
 
