@@ -39,7 +39,7 @@ def home_page():
 		logout = "Log Out"
 	
 	return render_template("index.html", pic_date = pic_date, pic_explanation = pic_explanation, pic_url = pic_url,
-		card_1 = card_1, card_2 = card_2, card_3= card_3, card_4= card_4, card_5 = card_5, logout=logout)
+		card_1 = card_1, card_2 = card_2, card_3= card_3, card_4= card_4, card_5 = card_5)
 
 @app.route('/blog', methods=['GET', 'POST'])
 def blog_page():
@@ -60,12 +60,12 @@ def blog_page():
 			
 		add_blog(title, picture, name, text, day, month)
 		 
-	return render_template("blog.html", blogs=return_all_blogs(), msg = msg, logout=logout)
+	return render_template("blog.html", blogs=return_all_blogs(), msg = msg)
 
 @app.route('/single_blog/<int:blog_id>')
 def single_blog_page(blog_id):
 	global logout
-	return render_template("single-blog.html", blog = return_blog(blog_id), logout=logout)
+	return render_template("single-blog.html", blog = return_blog(blog_id))
 
 @app.route('/signup', methods=['GET', 'POST'])
 def signup_page():
@@ -78,10 +78,10 @@ def signup_page():
 		if user != None:
 			if username == user.username:
 				username_check = "Sorry, this username is already taken!"
-				return render_template("signup.html", username_check = username_check, logout=logout)	
+				return render_template("signup.html", username_check = username_check)	
 		add_user(username, password)
 		#return redirect(url_for('login_page'))
-	return render_template("signup.html", username_check = username_check, logout=logout)
+	return render_template("signup.html", username_check = username_check)
 
 
 
@@ -113,32 +113,27 @@ def login_page():
 
 		if username_found and not pass_found:
 			pass_check = "Sorry, this password is incorrect."
-			return render_template("login.html", username = user_check, password = pass_check, logout=logout)
+			return render_template("login.html", username = user_check, password = pass_check)
 
 		elif not username_found and pass_found:
 			user_check = "Sorry, this username is incorrect."
-			return render_template("login.html", username = user_check, password = pass_check, logout=logout)
+			return render_template("login.html", username = user_check, password = pass_check)
 
 		elif not username_found and not pass_found:
 			user_check = "Sorry, this username is incorrect."
 			pass_check = "Sorry, this password is incorrect."
-			return render_template("login.html", username = user_check, password = pass_check, logout=logout)
+			return render_template("login.html", username = user_check, password = pass_check)
 
-	return render_template("login.html", username = user_check, password = pass_check, logout=logout)
+	return render_template("login.html", username = user_check, password = pass_check)
 	#return render_template("login.html")
 
 
-@app.route('/logout')
-def logout_page():
-	global logout
-	login_session.pop("username", None)
-	return redirect(url_for('home_page'))
 
 
 @app.route('/about')
 def about_page():
 	global logout
-	return render_template("about.html", logout=logout)
+	return render_template("about.html")
 
 
 
