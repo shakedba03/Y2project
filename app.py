@@ -43,7 +43,7 @@ def blog_page():
 	if "username" in login_session:
 		msg = " "
 
-	if request.method == 'POST':
+	if request.method == 'POST' and "username" in login_session:
 		name = request.form['name']
 		title = request.form['title']
 		text = request.form['text']
@@ -79,7 +79,7 @@ def signup_page():
 @app.route('/login', methods=['GET', 'POST'])
 def login_page():
 	global is_signed
-	user_check = "Username"
+	user_check = "Log In"
 	pass_check = "Password"
 	username_found = False
 	pass_found = False
